@@ -1,0 +1,72 @@
+body{
+    margin: 2vw 7vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+   color: rgb(212, 18, 18); 
+   font-size: 4vw;
+   letter-spacing: 0.5vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+  height: auto;
+  max-width: 96%;
+  vertical-align: middle;
+}
+
+.details{
+  padding: 2vw 20vw ;
+ font-size: 1.2em;
+ letter-spacing: 1.2px;
+ text-align: center;
+}
+.btn-link{
+    text-decoration: none;
+    background-color: rgb(77, 126, 3);
+    color:white;
+    padding: 10px;
+    border-radius:20px;
+
+}
+
+.image{
+    display: none;
+}
+
+.download {
+    margin-left: 35vw;
+}
+.clearbtn{
+    margin-left: 20px;
+}
+
+
+.download ,.clearbtn{
+    color: red;
+    text-decoration: none;
+    background-color: rgb(77, 126, 3);
+    color:white;
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.frame{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.view{
+    margin:20px 0;
+}

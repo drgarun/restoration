@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileUpload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Use Your cursor to mask out any portions of your image and select Apply model</h2>
+    </header>
+    <article class="frame">
+    <section class="input_img">
+     <input type='file' accept='image/*' onchange='openFile(event)'><br>
+    </section>
+    <section class="view">
+    <canvas id="myCanvas" width="256" height="256"
+     style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.
+        </canvas>
+
+     <img id='image' class="image">
+    </section>
+    </article>
+    
+    <script src="upload.js"></script>
+</body>
+</html>
